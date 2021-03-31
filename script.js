@@ -2,5 +2,8 @@ var tellimuseVorm = document.querySelector('form')
 
 tellimuseVorm.onsubmit = function(event) {
     event.preventDefault()
-    console.log('Vormi saatmine')
+    var probleem = tellimuseVorm.description.value
+    var aadress = tellimuseVorm.address.value
+    var telefon = tellimuseVorm.phone.value
+    console.log(probleem, aadress, telefon)
 }
