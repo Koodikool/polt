@@ -1,3 +1,6 @@
 body {
   background-color: mintcream;
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial;
 }
